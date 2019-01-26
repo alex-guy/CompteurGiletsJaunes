@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Accueil-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compteur Gilets Jaunes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcV-hi-TAe">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="iSc-sm-8Md"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="En cliquant sur l'image ci-dessous, je déclare être un Gilet Jaune" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXV-M1-Bok">
+                                <rect key="frame" x="20" y="57" width="374" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="kyS-2N-xXg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gG-jb-DbR">
+                                <rect key="frame" x="0.0" y="587" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="69c-Lc-RWU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gilets jaunes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FC-kI-sYY">
+                                <rect key="frame" x="0.0" y="637" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vgx-lb-PoT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GJ enregistré le XX/XX/XXXX à HH:HH" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixx-kF-XWy">
+                                <rect key="frame" x="20" y="65" width="374" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mwD-H0-Txo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Le Nom de la Commune" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pi4-ue-OT7">
+                                <rect key="frame" x="20" y="102" width="374" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="OTf-iS-Bpf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBZ-wb-1Ow">
+                                <rect key="frame" x="-14.333333333333343" y="144" width="442.66666666666663" height="413"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IBZ-wb-1Ow" secondAttribute="height" multiplier="44:41" id="dXM-fO-9I9"/>
+                                </constraints>
+                                <state key="normal" title="Je suis un gilet jaune" image="giletjaune"/>
+                                <connections>
+                                    <action selector="clickGiletJaune:" destination="9pv-A4-QxB" eventType="touchUpInside" id="BFT-Yr-WTz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="FXV-M1-Bok" firstAttribute="top" secondItem="jcV-hi-TAe" secondAttribute="bottom" constant="17" id="2JS-Uq-iu7"/>
+                            <constraint firstItem="2FC-kI-sYY" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="2f8-zv-SSX"/>
+                            <constraint firstItem="Pi4-ue-OT7" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="6aZ-dX-qxr"/>
+                            <constraint firstItem="2FC-kI-sYY" firstAttribute="top" secondItem="6gG-jb-DbR" secondAttribute="bottom" id="Dy8-gg-6sR"/>
+                            <constraint firstItem="jcV-hi-TAe" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="FHz-4P-D2u"/>
+                            <constraint firstItem="IBZ-wb-1Ow" firstAttribute="top" secondItem="FXV-M1-Bok" secondAttribute="bottom" constant="20" id="Gso-9Z-f5V"/>
+                            <constraint firstAttribute="trailing" secondItem="6gG-jb-DbR" secondAttribute="trailing" id="O3c-ye-SkZ"/>
+                            <constraint firstItem="ixx-kF-XWy" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="OsE-Eh-kQh"/>
+                            <constraint firstItem="jcV-hi-TAe" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" constant="20" id="P3g-EJ-iYz"/>
+                            <constraint firstItem="jcV-hi-TAe" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-20" id="Pey-kx-14F"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="2FC-kI-sYY" secondAttribute="bottom" id="Qek-aj-is0"/>
+                            <constraint firstItem="IBZ-wb-1Ow" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="Sod-Nk-988"/>
+                            <constraint firstAttribute="trailing" secondItem="2FC-kI-sYY" secondAttribute="trailing" id="TGJ-VC-jr1"/>
+                            <constraint firstItem="FXV-M1-Bok" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="W8y-dw-WME"/>
+                            <constraint firstItem="Pi4-ue-OT7" firstAttribute="top" secondItem="ixx-kF-XWy" secondAttribute="bottom" constant="16" id="WTW-34-2vK"/>
+                            <constraint firstItem="FXV-M1-Bok" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="ZvO-Pz-yJA"/>
+                            <constraint firstItem="Pi4-ue-OT7" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="bfR-6p-DNs"/>
+                            <constraint firstItem="6gG-jb-DbR" firstAttribute="top" secondItem="IBZ-wb-1Ow" secondAttribute="bottom" constant="30" id="j5G-sw-VCR"/>
+                            <constraint firstItem="ixx-kF-XWy" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="k5z-4p-SWQ"/>
+                            <constraint firstItem="ixx-kF-XWy" firstAttribute="top" secondItem="jcV-hi-TAe" secondAttribute="bottom" constant="25" id="ms4-aC-eTg"/>
+                            <constraint firstItem="6gG-jb-DbR" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="ssh-4W-fQi"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Accueil" image="baseline_person_add_black_36pt" id="acW-dT-cKf"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="InscriptionLabel" destination="ixx-kF-XWy" id="JxR-qE-kGB"/>
+                        <outlet property="communeLabel" destination="Pi4-ue-OT7" id="Tx9-2N-Rv9"/>
+                        <outlet property="compteurLabel" destination="6gG-jb-DbR" id="Kqf-T1-ySc"/>
+                        <outlet property="dateInscriptionLabel" destination="ixx-kF-XWy" id="xWM-xY-5aK"/>
+                        <outlet property="giletJauneButton" destination="IBZ-wb-1Ow" id="EZM-Se-e0j"/>
+                        <outlet property="inscriptionLabel" destination="FXV-M1-Bok" id="Hin-d8-0WK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748.125" y="-321.12676056338029"/>
+        </scene>
+        <!--Gilets jaunes par région-->
+        <scene sceneID="8Cq-nN-oAo">
+            <objects>
+                <tableViewController id="40H-CV-Ebl" customClass="ChiffresRegionTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="fga-3e-azW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChiffresCell" rowHeight="70" id="KEL-qH-izw" customClass="ChiffresCell">
+                                <rect key="frame" x="0.0" y="28" width="414" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KEL-qH-izw" id="fnL-Oy-anN">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="40H-CV-Ebl" id="4hy-Kf-9pN"/>
+                            <outlet property="delegate" destination="40H-CV-Ebl" id="8DQ-kJ-U76"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Gilets jaunes par région" id="93s-9C-00t"/>
+                    <connections>
+                        <segue destination="F5c-sS-D0v" kind="show" identifier="GoDepartement" id="3fX-YQ-e7Q"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GSf-eS-S8g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2473" y="358"/>
+        </scene>
+        <!--Gilets jaunes par département-->
+        <scene sceneID="7NX-6i-DIy">
+            <objects>
+                <tableViewController id="F5c-sS-D0v" customClass="ChiffresDepartementViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bBo-mn-wRx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChiffresCell" rowHeight="70" id="Egw-EV-LeR" customClass="ChiffresCell">
+                                <rect key="frame" x="0.0" y="28" width="414" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Egw-EV-LeR" id="P7k-QW-MaK">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="F5c-sS-D0v" id="9eI-De-GKy"/>
+                            <outlet property="delegate" destination="F5c-sS-D0v" id="MRz-ri-dHu"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Gilets jaunes par département" id="jZW-x4-xbN"/>
+                    <connections>
+                        <segue destination="eOp-MT-0O2" kind="show" identifier="GoCommune" id="mv8-FW-oBc"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5qw-1w-htu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3393.75" y="357.04225352112678"/>
+        </scene>
+        <!--Gilets jaunes par commune-->
+        <scene sceneID="vb7-3W-G1m">
+            <objects>
+                <tableViewController id="eOp-MT-0O2" customClass="ChiffresCommuneViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Hw6-N8-kz3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChiffresCell" rowHeight="70" id="QVm-Ab-a8i" customClass="ChiffresCell">
+                                <rect key="frame" x="0.0" y="28" width="414" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QVm-Ab-a8i" id="H9t-2a-GJN">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eOp-MT-0O2" id="vov-CN-7vy"/>
+                            <outlet property="delegate" destination="eOp-MT-0O2" id="z3u-lo-Cb6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Gilets jaunes par commune" id="IdG-53-KT7"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yKN-WT-ihK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4279" y="358"/>
+        </scene>
+        <!--Chiffres-->
+        <scene sceneID="DIY-n8-d0e">
+            <objects>
+                <navigationController id="t5U-E8-hKR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Chiffres" image="baseline_equalizer_black_36pt" id="vsp-eE-rZT"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8dj-ad-PXy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="40H-CV-Ebl" kind="relationship" relationship="rootViewController" id="Hyg-bq-C0S"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MV2-GE-r80" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1547" y="359"/>
+        </scene>
+        <!--Carte-->
+        <scene sceneID="1aB-ZR-7N5">
+            <objects>
+                <viewController id="kxF-WW-yUw" customClass="CarteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XiQ-S9-hKq"/>
+                        <viewControllerLayoutGuide type="bottom" id="5CC-wH-n0F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Srr-1x-hBT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ok4-ml-FbA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ok4-ml-FbA" secondAttribute="trailing" id="EBD-Ln-HeW"/>
+                            <constraint firstItem="5CC-wH-n0F" firstAttribute="top" secondItem="Ok4-ml-FbA" secondAttribute="bottom" id="STT-aS-jTc"/>
+                            <constraint firstItem="Ok4-ml-FbA" firstAttribute="top" secondItem="Srr-1x-hBT" secondAttribute="top" id="jJ7-dL-xlZ"/>
+                            <constraint firstItem="Ok4-ml-FbA" firstAttribute="leading" secondItem="Srr-1x-hBT" secondAttribute="leading" id="wsF-kA-RHg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Carte" image="baseline_language_black_36pt" id="MKi-RF-I4v"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="mapView" destination="Ok4-ml-FbA" id="8hS-2L-BV6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rgn-Qa-kal" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1.875" y="1091.1971830985915"/>
+        </scene>
+        <!--A propos-->
+        <scene sceneID="Ikj-AI-zFZ">
+            <objects>
+                <viewController id="cOk-GA-3ZZ" customClass="AproposViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YcS-5l-lFx"/>
+                        <viewControllerLayoutGuide type="bottom" id="vFo-NL-fsz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rZ6-hM-7eq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="PUN-54-ZEA">
+                                <rect key="frame" x="20" y="50" width="374" height="617"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">L'application "Compteur Gilets Jaunes" permet de compter de manière fiable le nombre de gilets jaunes au niveau national, par région, par département, et par commune.  En utilisant la géolocalisation (position GPS), l'application détecte la commune et comptabilise l'inscription.  L'application utilise un identifiant unique pour s'assurer qu'on ne peut s'inscrire qu'une seule fois, même si on désinstalle et reinstalle l'application.  L'application communique avec un serveur qui centralise anonymement les inscriptions.  L'application ainsi que logiciel côté serveur sont diffusés en licence libre et disponible sur GitHub. Les développeurs sont invités à venir participer au projet !  https://github.com/alex-guy/CompteurGiletsJaunes</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compteur Gilets Jaunes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqY-oG-iKG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nl7-98-750"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jqY-oG-iKG" firstAttribute="leading" secondItem="rZ6-hM-7eq" secondAttribute="leading" id="0mP-Xk-KnS"/>
+                            <constraint firstItem="vFo-NL-fsz" firstAttribute="top" secondItem="PUN-54-ZEA" secondAttribute="bottom" constant="20" id="Lct-g9-1fG"/>
+                            <constraint firstItem="jqY-oG-iKG" firstAttribute="top" secondItem="YcS-5l-lFx" secondAttribute="bottom" id="Lug-KA-UIu"/>
+                            <constraint firstAttribute="trailing" secondItem="jqY-oG-iKG" secondAttribute="trailing" id="PDp-hb-XFP"/>
+                            <constraint firstItem="PUN-54-ZEA" firstAttribute="top" secondItem="jqY-oG-iKG" secondAttribute="bottom" constant="10" id="Qoi-u0-6JK"/>
+                            <constraint firstItem="PUN-54-ZEA" firstAttribute="leading" secondItem="rZ6-hM-7eq" secondAttribute="leadingMargin" id="WCs-s5-yV3"/>
+                            <constraint firstItem="PUN-54-ZEA" firstAttribute="trailing" secondItem="rZ6-hM-7eq" secondAttribute="trailingMargin" id="rrU-aD-G4I"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="A propos" image="baseline_info_black_36pt" id="ngT-ES-PcV"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="crk-RC-op3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886.875" y="1091.1971830985915"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="t5U-E8-hKR" kind="relationship" relationship="viewControllers" id="tG7-ub-brT"/>
+                        <segue destination="kxF-WW-yUw" kind="relationship" relationship="viewControllers" id="7J9-fl-hvV"/>
+                        <segue destination="cOk-GA-3ZZ" kind="relationship" relationship="viewControllers" id="OGJ-Ol-nDr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="baseline_equalizer_black_36pt" width="36" height="36"/>
+        <image name="baseline_info_black_36pt" width="36" height="36"/>
+        <image name="baseline_language_black_36pt" width="36" height="36"/>
+        <image name="baseline_person_add_black_36pt" width="36" height="36"/>
+        <image name="giletjaune" width="500" height="500"/>
+    </resources>
+</document>

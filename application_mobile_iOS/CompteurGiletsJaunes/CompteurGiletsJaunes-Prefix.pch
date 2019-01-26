@@ -1,0 +1,18 @@
+//
+//  CompteurGiletsJaunes-Prefix.pch
+//  CompteurGiletsJaunes
+//
+//  Created by Alexandre GUY on 24/01/2019.
+//  Copyright © 2019 Alexandre GUY. All rights reserved.
+//
+
+#ifndef CompteurGiletsJaunes_Prefix_pch
+#define CompteurGiletsJaunes_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// Suppression des NSLog pour release
+#define NSLog(...)
+
+#endif /* CompteurGiletsJaunes_Prefix_pch */

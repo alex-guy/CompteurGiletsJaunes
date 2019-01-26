@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Compteur Gilets Jaunes</string>
+    <string name="titre_accueil">Inscription</string>
+    <string name="titre_chiffres">Chiffres</string>
+    <string name="titre_carte">Carte</string>
+    <string name="titre_apropos">A propos</string>
+    <string name="accueil_phrase_inscription">En cliquant sur l\'image ci-dessous, je déclare être un Gilet Jaune</string>
+    <string name="accueil_gilets_jaunes">Gilets Jaunes</string>
+    <string name="apropos_texte">L\'application &quot;Compteur Gilets Jaunes&quot; permet de compter de manière fiable le nombre de gilets jaunes au niveau national, par région, par département, et par commune.\n\nEn utilisant la géolocalisation (position GPS), l\'application détecte la commune et comptabilise l\'inscription.\n\nL\'application utilise un identifiant unique pour s\'assurer qu\'on ne peut s\'inscrire qu\'une seule fois, même si on désinstalle et reinstalle l\'application.\n\nL\'application communique avec un serveur qui centralise anonymement les inscriptions.\n\nL\'application ainsi que logiciel côté serveur sont diffusés en licence libre et disponible sur GitHub. Les développeurs sont invités à venir participer au projet !\n\nhttps://github.com/alex-guy/CompteurGiletsJaunes</string>
+    <string name="chiffres_par_region">Gilets Jaunes par région</string>
+    <string name="chiffres_par_departement">Gilets Jaunes par département</string>
+    <string name="chiffres_par_commune">Gilets Jaunes par commune</string>
+</resources>

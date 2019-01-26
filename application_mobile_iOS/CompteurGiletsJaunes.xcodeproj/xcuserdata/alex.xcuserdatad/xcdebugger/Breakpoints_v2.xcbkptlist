@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/ChiffresDepartementViewController.m"
+            timestampString = "568150085.87818"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/ChiffresCommuneViewController.m"
+            timestampString = "570039244.11143"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "@implementation ChiffresCommuneViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/ChiffresRegionTableViewController.m"
+            timestampString = "568148030.564376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "@interface ChiffresRegionTableViewController()"
+            landmarkType = "2">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/ChiffresRegionTableViewController.m"
+            timestampString = "568899493.779624"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-viewWillAppear:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/FirstViewController.m"
+            timestampString = "569786192.3816561"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/AppDelegate.h"
+            timestampString = "568147648.045019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/ChiffresCell.h"
+            timestampString = "568147870.968448"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChiffresCell nomLabel]"
+                  moduleName = "CompteurGiletsJaunes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Documents/Developpement/CompteurGiletsJaunes/CompteurGiletsJaunes/ChiffresCell.h"
+                  timestampString = "568147871.204801"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChiffresCell setNomLabel:]"
+                  moduleName = "CompteurGiletsJaunes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/Documents/Developpement/CompteurGiletsJaunes/CompteurGiletsJaunes/ChiffresCell.h"
+                  timestampString = "568147871.208616"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/FirstViewController.m"
+            timestampString = "570039244.11143"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "-confirmeClickGiletJaune"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/ChiffresRegionTableViewController.m"
+            timestampString = "570039244.11143"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/ChiffresDepartementViewController.m"
+            timestampString = "570039244.11143"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "@implementation ChiffresDepartementViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/Region.m"
+            timestampString = "568150085.87818"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "@implementation Region"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/ChiffresRegionTableViewController.m"
+            timestampString = "568899373.738264"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/FirstViewController.m"
+            timestampString = "570039244.11143"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
+            landmarkName = "-locationManager:didUpdateLocations:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompteurGiletsJaunes/FirstViewController.m"
+            timestampString = "570039244.11143"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "-locationManager:didUpdateLocations:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

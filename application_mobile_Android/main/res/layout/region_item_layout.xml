@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Nom de la région"
+        android:textColor="@color/bleu"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nombre_total"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@id/nom"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="12345"
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

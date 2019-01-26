@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tabapropos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tabapropos.TabAproposFragment">
+
+    <TextView
+        android:id="@+id/titre_app"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/giletjaune"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/apropos_texte"
+        android:textSize="15sp"
+        android:autoLink="web"
+        android:textColorLink="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titre_app"/>
+
+</android.support.constraint.ConstraintLayout>

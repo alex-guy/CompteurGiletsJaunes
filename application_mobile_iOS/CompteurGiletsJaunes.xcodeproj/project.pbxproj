@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0100AE21DD4C8800E87906 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA0100AD21DD4C8800E87906 /* README.txt */; };
+		FA18D8DA21D6D3230080BCC2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA18D8D921D6D3230080BCC2 /* SystemConfiguration.framework */; };
+		FA1E4B6721F645EB006F2521 /* secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA1E4B6621F645EB006F2521 /* secrets.plist */; };
+		FA39300721D582A40009C556 /* KeyInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39300621D582A40009C556 /* KeyInterface.m */; };
+		FA39300B21D6C0500009C556 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39300A21D6C0500009C556 /* MBProgressHUD.m */; };
+		FA626DFE21E8B87D00583A83 /* AproposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA626DFD21E8B87D00583A83 /* AproposViewController.m */; };
+		FA65F3BD21E9CF5100D5A9B4 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA65F3BC21E9CF5100D5A9B4 /* CustomAnnotationView.m */; };
+		FA6FAB1521CE4A3A006B3C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6FAB1421CE4A3A006B3C80 /* main.m */; };
+		FA6FAB1821CE4A3A006B3C80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6FAB1721CE4A3A006B3C80 /* AppDelegate.m */; };
+		FA6FAB1B21CE4A3A006B3C80 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6FAB1A21CE4A3A006B3C80 /* FirstViewController.m */; };
+		FA6FAB2121CE4A3A006B3C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6FAB1F21CE4A3A006B3C80 /* Main.storyboard */; };
+		FA6FAB2321CE4A3A006B3C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6FAB2221CE4A3A006B3C80 /* Assets.xcassets */; };
+		FA6FAB2621CE4A3A006B3C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6FAB2421CE4A3A006B3C80 /* LaunchScreen.storyboard */; };
+		FAB61C2921CFCC6500F4E757 /* ChiffresRegionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB61C2821CFCC6500F4E757 /* ChiffresRegionTableViewController.m */; };
+		FAB61C2C21CFCC9900F4E757 /* ChiffresDepartementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB61C2B21CFCC9900F4E757 /* ChiffresDepartementViewController.m */; };
+		FAB61C2F21CFCCC500F4E757 /* ChiffresCommuneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB61C2E21CFCCC500F4E757 /* ChiffresCommuneViewController.m */; };
+		FAB61C3321CFCD9400F4E757 /* ChiffresCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB61C3121CFCD9400F4E757 /* ChiffresCell.m */; };
+		FAB61C3421CFCD9400F4E757 /* ChiffresCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB61C3221CFCD9400F4E757 /* ChiffresCell.xib */; };
+		FAB61C3721CFD0B900F4E757 /* Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB61C3621CFD0B900F4E757 /* Brain.m */; };
+		FAB61C3A21CFEAB200F4E757 /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB61C3921CFEAB200F4E757 /* Region.m */; };
+		FAB61C3D21CFF31C00F4E757 /* Departement.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB61C3C21CFF31C00F4E757 /* Departement.m */; };
+		FAB61C4021CFF69100F4E757 /* Commune.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB61C3F21CFF69100F4E757 /* Commune.m */; };
+		FAD562A121CE67CB00943D81 /* AIG1955073.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD562A021CE67CB00943D81 /* AIG1955073.jpg */; };
+		FAD562A421CE745B00943D81 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD562A321CE745B00943D81 /* MapKit.framework */; };
+		FAD562AC21CE751600943D81 /* CarteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD562AB21CE751600943D81 /* CarteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA0100AD21DD4C8800E87906 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		FA18D8D921D6D3230080BCC2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FA1E4B6621F645EB006F2521 /* secrets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = secrets.plist; sourceTree = "<group>"; };
+		FA39300621D582A40009C556 /* KeyInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyInterface.m; sourceTree = "<group>"; };
+		FA39300821D582CB0009C556 /* KeyInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyInterface.h; sourceTree = "<group>"; };
+		FA39300921D6C02E0009C556 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FA39300A21D6C0500009C556 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FA626DFC21E8B87D00583A83 /* AproposViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AproposViewController.h; sourceTree = "<group>"; };
+		FA626DFD21E8B87D00583A83 /* AproposViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AproposViewController.m; sourceTree = "<group>"; };
+		FA65F3BB21E9CF5100D5A9B4 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		FA65F3BC21E9CF5100D5A9B4 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		FA6FAB1021CE4A3A006B3C80 /* CompteurGiletsJaunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompteurGiletsJaunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6FAB1421CE4A3A006B3C80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA6FAB1621CE4A3A006B3C80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA6FAB1721CE4A3A006B3C80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA6FAB1921CE4A3A006B3C80 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FA6FAB1A21CE4A3A006B3C80 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FA6FAB2021CE4A3A006B3C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA6FAB2221CE4A3A006B3C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6FAB2521CE4A3A006B3C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA6FAB2721CE4A3A006B3C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA43A7C21F9AC3A0041D50E /* CompteurGiletsJaunes-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CompteurGiletsJaunes-Prefix.pch"; sourceTree = "<group>"; };
+		FAB61C2721CFCC6500F4E757 /* ChiffresRegionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiffresRegionTableViewController.h; sourceTree = "<group>"; };
+		FAB61C2821CFCC6500F4E757 /* ChiffresRegionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiffresRegionTableViewController.m; sourceTree = "<group>"; };
+		FAB61C2A21CFCC9900F4E757 /* ChiffresDepartementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiffresDepartementViewController.h; sourceTree = "<group>"; };
+		FAB61C2B21CFCC9900F4E757 /* ChiffresDepartementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiffresDepartementViewController.m; sourceTree = "<group>"; };
+		FAB61C2D21CFCCC500F4E757 /* ChiffresCommuneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiffresCommuneViewController.h; sourceTree = "<group>"; };
+		FAB61C2E21CFCCC500F4E757 /* ChiffresCommuneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiffresCommuneViewController.m; sourceTree = "<group>"; };
+		FAB61C3021CFCD9400F4E757 /* ChiffresCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiffresCell.h; sourceTree = "<group>"; };
+		FAB61C3121CFCD9400F4E757 /* ChiffresCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiffresCell.m; sourceTree = "<group>"; };
+		FAB61C3221CFCD9400F4E757 /* ChiffresCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChiffresCell.xib; sourceTree = "<group>"; };
+		FAB61C3521CFD0B900F4E757 /* Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brain.h; sourceTree = "<group>"; };
+		FAB61C3621CFD0B900F4E757 /* Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brain.m; sourceTree = "<group>"; };
+		FAB61C3821CFEAB200F4E757 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
+		FAB61C3921CFEAB200F4E757 /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
+		FAB61C3B21CFF31C00F4E757 /* Departement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Departement.h; sourceTree = "<group>"; };
+		FAB61C3C21CFF31C00F4E757 /* Departement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Departement.m; sourceTree = "<group>"; };
+		FAB61C3E21CFF69100F4E757 /* Commune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commune.h; sourceTree = "<group>"; };
+		FAB61C3F21CFF69100F4E757 /* Commune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Commune.m; sourceTree = "<group>"; };
+		FAD562A021CE67CB00943D81 /* AIG1955073.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AIG1955073.jpg; sourceTree = "<group>"; };
+		FAD562A321CE745B00943D81 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FAD562AA21CE751600943D81 /* CarteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarteViewController.h; sourceTree = "<group>"; };
+		FAD562AB21CE751600943D81 /* CarteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarteViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6FAB0D21CE4A3A006B3C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA18D8DA21D6D3230080BCC2 /* SystemConfiguration.framework in Frameworks */,
+				FAD562A421CE745B00943D81 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6FAB0721CE4A3A006B3C80 = {
+			isa = PBXGroup;
+			children = (
+				FA6FAB1221CE4A3A006B3C80 /* CompteurGiletsJaunes */,
+				FA6FAB1121CE4A3A006B3C80 /* Products */,
+				FAD562A221CE745B00943D81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6FAB1121CE4A3A006B3C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6FAB1021CE4A3A006B3C80 /* CompteurGiletsJaunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6FAB1221CE4A3A006B3C80 /* CompteurGiletsJaunes */ = {
+			isa = PBXGroup;
+			children = (
+				FA0100AD21DD4C8800E87906 /* README.txt */,
+				FA6FAB1621CE4A3A006B3C80 /* AppDelegate.h */,
+				FA6FAB1721CE4A3A006B3C80 /* AppDelegate.m */,
+				FAB61C3521CFD0B900F4E757 /* Brain.h */,
+				FAB61C3621CFD0B900F4E757 /* Brain.m */,
+				FA6FAB1921CE4A3A006B3C80 /* FirstViewController.h */,
+				FA6FAB1A21CE4A3A006B3C80 /* FirstViewController.m */,
+				FA6FAB1F21CE4A3A006B3C80 /* Main.storyboard */,
+				FA6FAB2221CE4A3A006B3C80 /* Assets.xcassets */,
+				FAD562A021CE67CB00943D81 /* AIG1955073.jpg */,
+				FA6FAB2421CE4A3A006B3C80 /* LaunchScreen.storyboard */,
+				FA6FAB2721CE4A3A006B3C80 /* Info.plist */,
+				FA1E4B6621F645EB006F2521 /* secrets.plist */,
+				FAB61C2721CFCC6500F4E757 /* ChiffresRegionTableViewController.h */,
+				FAB61C2821CFCC6500F4E757 /* ChiffresRegionTableViewController.m */,
+				FAB61C2A21CFCC9900F4E757 /* ChiffresDepartementViewController.h */,
+				FAB61C2B21CFCC9900F4E757 /* ChiffresDepartementViewController.m */,
+				FAB61C2D21CFCCC500F4E757 /* ChiffresCommuneViewController.h */,
+				FAB61C2E21CFCCC500F4E757 /* ChiffresCommuneViewController.m */,
+				FAB61C3021CFCD9400F4E757 /* ChiffresCell.h */,
+				FAB61C3121CFCD9400F4E757 /* ChiffresCell.m */,
+				FAB61C3221CFCD9400F4E757 /* ChiffresCell.xib */,
+				FAD562AA21CE751600943D81 /* CarteViewController.h */,
+				FAD562AB21CE751600943D81 /* CarteViewController.m */,
+				FA626DFC21E8B87D00583A83 /* AproposViewController.h */,
+				FA626DFD21E8B87D00583A83 /* AproposViewController.m */,
+				FAB61C3821CFEAB200F4E757 /* Region.h */,
+				FAB61C3921CFEAB200F4E757 /* Region.m */,
+				FAB61C3B21CFF31C00F4E757 /* Departement.h */,
+				FAB61C3C21CFF31C00F4E757 /* Departement.m */,
+				FAB61C3E21CFF69100F4E757 /* Commune.h */,
+				FAB61C3F21CFF69100F4E757 /* Commune.m */,
+				FA39300821D582CB0009C556 /* KeyInterface.h */,
+				FA39300621D582A40009C556 /* KeyInterface.m */,
+				FA39300921D6C02E0009C556 /* MBProgressHUD.h */,
+				FA39300A21D6C0500009C556 /* MBProgressHUD.m */,
+				FA6FAB1321CE4A3A006B3C80 /* Supporting Files */,
+				FA65F3BB21E9CF5100D5A9B4 /* CustomAnnotationView.h */,
+				FA65F3BC21E9CF5100D5A9B4 /* CustomAnnotationView.m */,
+			);
+			path = CompteurGiletsJaunes;
+			sourceTree = "<group>";
+		};
+		FA6FAB1321CE4A3A006B3C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6FAB1421CE4A3A006B3C80 /* main.m */,
+				FAA43A7C21F9AC3A0041D50E /* CompteurGiletsJaunes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD562A221CE745B00943D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA18D8D921D6D3230080BCC2 /* SystemConfiguration.framework */,
+				FAD562A321CE745B00943D81 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6FAB0F21CE4A3A006B3C80 /* CompteurGiletsJaunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6FAB2A21CE4A3A006B3C80 /* Build configuration list for PBXNativeTarget "CompteurGiletsJaunes" */;
+			buildPhases = (
+				FA6FAB0C21CE4A3A006B3C80 /* Sources */,
+				FA6FAB0D21CE4A3A006B3C80 /* Frameworks */,
+				FA6FAB0E21CE4A3A006B3C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompteurGiletsJaunes;
+			productName = CompteurGiletsJaunes;
+			productReference = FA6FAB1021CE4A3A006B3C80 /* CompteurGiletsJaunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6FAB0821CE4A3A006B3C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alexandre GUY";
+				TargetAttributes = {
+					FA6FAB0F21CE4A3A006B3C80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5U22S9AG6E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA6FAB0B21CE4A3A006B3C80 /* Build configuration list for PBXProject "CompteurGiletsJaunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA6FAB0721CE4A3A006B3C80;
+			productRefGroup = FA6FAB1121CE4A3A006B3C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6FAB0F21CE4A3A006B3C80 /* CompteurGiletsJaunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6FAB0E21CE4A3A006B3C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD562A121CE67CB00943D81 /* AIG1955073.jpg in Resources */,
+				FA1E4B6721F645EB006F2521 /* secrets.plist in Resources */,
+				FA6FAB2621CE4A3A006B3C80 /* LaunchScreen.storyboard in Resources */,
+				FA6FAB2321CE4A3A006B3C80 /* Assets.xcassets in Resources */,
+				FA6FAB2121CE4A3A006B3C80 /* Main.storyboard in Resources */,
+				FA0100AE21DD4C8800E87906 /* README.txt in Resources */,
+				FAB61C3421CFCD9400F4E757 /* ChiffresCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6FAB0C21CE4A3A006B3C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB61C3721CFD0B900F4E757 /* Brain.m in Sources */,
+				FAD562AC21CE751600943D81 /* CarteViewController.m in Sources */,
+				FA65F3BD21E9CF5100D5A9B4 /* CustomAnnotationView.m in Sources */,
+				FAB61C2921CFCC6500F4E757 /* ChiffresRegionTableViewController.m in Sources */,
+				FAB61C3A21CFEAB200F4E757 /* Region.m in Sources */,
+				FA39300721D582A40009C556 /* KeyInterface.m in Sources */,
+				FA6FAB1821CE4A3A006B3C80 /* AppDelegate.m in Sources */,
+				FA39300B21D6C0500009C556 /* MBProgressHUD.m in Sources */,
+				FAB61C4021CFF69100F4E757 /* Commune.m in Sources */,
+				FA6FAB1B21CE4A3A006B3C80 /* FirstViewController.m in Sources */,
+				FAB61C3321CFCD9400F4E757 /* ChiffresCell.m in Sources */,
+				FA6FAB1521CE4A3A006B3C80 /* main.m in Sources */,
+				FAB61C3D21CFF31C00F4E757 /* Departement.m in Sources */,
+				FAB61C2C21CFCC9900F4E757 /* ChiffresDepartementViewController.m in Sources */,
+				FAB61C2F21CFCCC500F4E757 /* ChiffresCommuneViewController.m in Sources */,
+				FA626DFE21E8B87D00583A83 /* AproposViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA6FAB1F21CE4A3A006B3C80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6FAB2021CE4A3A006B3C80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA6FAB2421CE4A3A006B3C80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6FAB2521CE4A3A006B3C80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6FAB2821CE4A3A006B3C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA6FAB2921CE4A3A006B3C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6FAB2B21CE4A3A006B3C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5U22S9AG6E;
+				GCC_PREFIX_HEADER = "CompteurGiletsJaunes/CompteurGiletsJaunes-Prefix.pch";
+				INFOPLIST_FILE = CompteurGiletsJaunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.euronode.ios.cgj.CompteurGiletsJaunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA6FAB2C21CE4A3A006B3C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5U22S9AG6E;
+				GCC_PREFIX_HEADER = "CompteurGiletsJaunes/CompteurGiletsJaunes-Prefix.pch";
+				INFOPLIST_FILE = CompteurGiletsJaunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.euronode.ios.cgj.CompteurGiletsJaunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6FAB0B21CE4A3A006B3C80 /* Build configuration list for PBXProject "CompteurGiletsJaunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6FAB2821CE4A3A006B3C80 /* Debug */,
+				FA6FAB2921CE4A3A006B3C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6FAB2A21CE4A3A006B3C80 /* Build configuration list for PBXNativeTarget "CompteurGiletsJaunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6FAB2B21CE4A3A006B3C80 /* Debug */,
+				FA6FAB2C21CE4A3A006B3C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA6FAB0821CE4A3A006B3C80 /* Project object */;
+}
