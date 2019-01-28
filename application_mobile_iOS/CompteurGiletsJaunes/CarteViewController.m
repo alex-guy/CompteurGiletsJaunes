@@ -37,8 +37,16 @@
     
     brain = [Brain sharedInstance];
     
-    if([brain hasConnectivity]) {
+}
 
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// viewWillAppear
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- (void)viewWillAppear:(BOOL)animated {
+
+    if([brain hasConnectivity]) {
+        
         originalLocation = nil;
         
         // MapView
@@ -51,8 +59,9 @@
         //    self.mapView.userTrackingMode = MKUserTrackingModeFollow;
         //    self.mapView.showsUserLocation = YES;
         
-        [brain dessineAnnotationsRegionsSurLaCarte:self.mapView];
-
+        //[brain dessineAnnotationsRegionsSurLaCarte:self.mapView];
+        [self mapView:self.mapView regionDidChangeAnimated:FALSE];
+        
     }
     else {
         UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Internet non disponible !"
@@ -71,7 +80,6 @@
         [self presentViewController:alert animated:YES completion:nil];
     }
 }
-
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // prefersStatusBarHidden
